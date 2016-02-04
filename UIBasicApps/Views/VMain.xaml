@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="UIBasicApps.Views.VMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UIBasicApps.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    
+    <Page.Resources>
+        <DataTemplate x:Key="gridview">
+            <StackPanel Height="130" Width="170" Margin="15 10 10 5" Orientation="Vertical">
+                <TextBlock Text="{Binding Title}"  Width="186" Style="{StaticResource BaseTextBlockStyle}" HorizontalAlignment="Left"/>
+                <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"></Image>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+    <Page.Background>
+        <SolidColorBrush Color="{ThemeResource PhoneBackgroundColor}"/>
+    </Page.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="147*"/>
+            <RowDefinition Height="493*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="0" Fill="Yellow"></Rectangle>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" Foreground="Black" Text="GridView" Style="{StaticResource HeaderTextBlockStyle}"></TextBlock>
+        <GridView x:Name="Gridview"
+                    Grid.Row="1"    
+                    ItemsSource="{Binding Collection}"
+                    ItemTemplate="{StaticResource gridview}"    
+                    IsItemClickEnabled="False"
+                    IsSwipeEnabled="False"
+                    CanDragItems="False"
+                    SelectionMode="Single">
+        </GridView>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar x:Name="MyCommandBar" IsOpen="False" Background="{ThemeResource CheckBoxPointerOverForegroundThemeBrush}" Opacity="0.7" >
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Tag="Lv" Label="ListView"  Click="AppBarButton_Click"/>
+                <AppBarButton Tag="Pv" Label="Pivot" Click="AppBarButton_Click"/>
+                <AppBarButton Tag="Hb" Label="Hub" Click="AppBarButton_Click"/>
+                <AppBarButton Tag="Fv" Label="Flip View" Click="AppBarButton_Click"/>
+                <AppBarButton Tag="Gv" Label="Grid View" Click="AppBarButton_Click"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

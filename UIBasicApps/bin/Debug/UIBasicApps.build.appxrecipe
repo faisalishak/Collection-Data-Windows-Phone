@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FAISAL</Machine>
+    <WindowsUser>faisal</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>474b9617-e00d-4101-9d54-fba41df3215c</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\UIBasicApps.exe">
+      <PackagePath>UIBasicApps.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2013\Projects\Profile\Profile\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Image\FlipView.png">
+      <PackagePath>Assets\Image\FlipView.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Image\GridView.png">
+      <PackagePath>Assets\Image\GridView.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Image\Hub.png">
+      <PackagePath>Assets\Image\Hub.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Image\ListView.png">
+      <PackagePath>Assets\Image\ListView.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Image\Pivot.png">
+      <PackagePath>Assets\Image\Pivot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Image\ScrollViewer.png">
+      <PackagePath>Assets\Image\ScrollViewer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\UIBasicApps.xr.xml">
+      <PackagePath>UIBasicApps.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\Views\VFlipView.xbf">
+      <PackagePath>Views\VFlipView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\Views\VHub.xbf">
+      <PackagePath>Views\VHub.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\Views\VListView.xbf">
+      <PackagePath>Views\VListView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\Views\VMain.xbf">
+      <PackagePath>Views\VMain.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\Views\VPivot.xbf">
+      <PackagePath>Views\VPivot.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\faisal\Documents\Visual Studio 2015\Projects\UIBasicApps\UIBasicApps\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

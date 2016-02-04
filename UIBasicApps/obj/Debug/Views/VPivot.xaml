@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="UIBasicApps.Views.VPivot"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UIBasicApps.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="147*"/>
+            <RowDefinition Height="493*"/>
+        </Grid.RowDefinitions>
+        
+        <Rectangle Grid.Row="0" Fill="Yellow"></Rectangle>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" Foreground="Black" Text="Pivot" Style="{StaticResource HeaderTextBlockStyle}"></TextBlock>
+        <Pivot Grid.Row="1">
+            <PivotItem Header="Satu">
+                <TextBlock Text="Hello"></TextBlock>
+            </PivotItem>
+            <PivotItem Header="Dua">
+                <TextBlock Text="World"></TextBlock>
+            </PivotItem>
+            <PivotItem Header="Tiga">
+                <TextBlock Text=""></TextBlock>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+
+
+    <Page.BottomAppBar>
+        <CommandBar x:Name="MyCommandBar" IsOpen="False" Background="{ThemeResource CheckBoxPointerOverForegroundThemeBrush}" Opacity="0.7" >
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='1' Tag="Lv" Label="ListView"                            />
+                <AppBarButton x:ConnectionId='2' Tag="Pv" Label="Pivot"                           />
+                <AppBarButton x:ConnectionId='3' Tag="Hb" Label="Hub"                           />
+                <AppBarButton x:ConnectionId='4' Tag="Fv" Label="Flip View"                           />
+                <AppBarButton x:ConnectionId='5' Tag="Gv" Label="Grid View"                           />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+</Page>
+
